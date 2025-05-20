@@ -13,5 +13,10 @@ public class GitDemo {
 	public void gitDemoTest2() {
 		System.out.println("I have made changes- from American guy");
 	}
+	
+	@Test
+	public void gitDemoTest3() {
+		System.out.println("I am from develop branch-Indian guy");
+	}
 
 }
