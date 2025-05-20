@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="firstPackage.Listening"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Personal Loan(failed)">
+    <parameter name="URL" value="https://www.naukri.com/"/>
+    <classes>
+      <class name="firstPackage.HomeLoan">
+        <methods>
+          <include name="webLoginHomeLoan" invocation-numbers="0 1 2 3"/>
+          <include name="AfterTest"/>
+          <include name="BeforeMethod"/>
+          <include name="Aftersuite"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- firstPackage.HomeLoan -->
+    </classes>
+  </test> <!-- Personal Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->

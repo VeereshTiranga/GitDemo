@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="14" passed="5" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-10T20:04:51 IST" name="Loan Department" finished-at="2025-05-10T20:04:51 IST" duration-ms="131">
+    <groups>
+      <group name="smoke">
+        <method signature="HomeLoan.ApiLoginHomeLoan()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" name="ApiLoginHomeLoan" class="firstPackage.HomeLoan"/>
+        <method signature="Secondclass.test1()[pri:0, instance:firstPackage.Secondclass@45c7e403]" name="test1" class="firstPackage.Secondclass"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-05-10T20:04:51 IST" name="Car Loan" finished-at="2025-05-10T20:04:51 IST" duration-ms="68">
+      <class name="firstPackage.Carloan">
+        <test-method is-config="true" signature="Beforesuite()[pri:0, instance:firstPackage.Carloan@77f80c04]" started-at="2025-05-10T20:04:51 IST" name="Beforesuite" finished-at="2025-05-10T20:04:51 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforesuite -->
+        <test-method is-config="true" signature="Beforeclass()[pri:0, instance:firstPackage.Carloan@77f80c04]" started-at="2025-05-10T20:04:51 IST" name="Beforeclass" finished-at="2025-05-10T20:04:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Beforeclass -->
+        <test-method signature="webLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:firstPackage.Carloan@77f80c04]" started-at="2025-05-10T20:04:51 IST" name="webLoginCarLoan" finished-at="2025-05-10T20:04:51 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://rahulshettyacademy.com/loginpagePractise/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VeereshTiranga]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+        <test-method is-config="true" signature="Afterclass()[pri:0, instance:firstPackage.Carloan@77f80c04]" started-at="2025-05-10T20:04:51 IST" name="Afterclass" finished-at="2025-05-10T20:04:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Afterclass -->
+      </class> <!-- firstPackage.Carloan -->
+      <class name="firstPackage.HomeLoan">
+        <test-method is-config="true" signature="Aftersuite()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="Aftersuite" finished-at="2025-05-10T20:04:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftersuite -->
+      </class> <!-- firstPackage.HomeLoan -->
+    </test> <!-- Car Loan -->
+    <test started-at="2025-05-10T20:04:51 IST" name="Personal Loan" finished-at="2025-05-10T20:04:51 IST" duration-ms="131">
+      <class name="firstPackage.Firstclass">
+        <test-method signature="secondTest()[pri:0, instance:firstPackage.Firstclass@44c03695]" started-at="2025-05-10T20:04:51 IST" name="secondTest" finished-at="2025-05-10T20:04:51 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- firstPackage.Firstclass -->
+      <class name="firstPackage.Secondclass">
+        <test-method is-config="true" signature="BeforeTest()[pri:0, instance:firstPackage.Secondclass@45c7e403]" started-at="2025-05-10T20:04:51 IST" name="BeforeTest" finished-at="2025-05-10T20:04:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method signature="test1()[pri:0, instance:firstPackage.Secondclass@45c7e403]" started-at="2025-05-10T20:04:51 IST" name="test1" finished-at="2025-05-10T20:04:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- firstPackage.Secondclass -->
+      <class name="firstPackage.HomeLoan">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="BeforeMethod" finished-at="2025-05-10T20:04:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="ApiLoginHomeLoan()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="ApiLoginHomeLoan" finished-at="2025-05-10T20:04:51 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiLoginHomeLoan -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="AfterMethod" finished-at="2025-05-10T20:04:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="mobileLoginHomeLoan(java.lang.String)[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="mobileLoginHomeLoan" finished-at="2025-05-10T20:04:51 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.naukri.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginHomeLoan -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="BeforeMethod" finished-at="2025-05-10T20:04:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="AfterMethod" finished-at="2025-05-10T20:04:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="BeforeMethod" finished-at="2025-05-10T20:04:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="webLoginHomeLoan(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="webLoginHomeLoan" data-provider="getData" finished-at="2025-05-10T20:04:51 IST" duration-ms="13" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firstLoginSuccess]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at firstPackage.HomeLoan.webLoginHomeLoan(HomeLoan.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="AfterMethod" finished-at="2025-05-10T20:04:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="BeforeMethod" finished-at="2025-05-10T20:04:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method signature="webLoginHomeLoan(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="webLoginHomeLoan" data-provider="getData" finished-at="2025-05-10T20:04:51 IST" duration-ms="3" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[secondLoginSuccess]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at firstPackage.HomeLoan.webLoginHomeLoan(HomeLoan.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="AfterMethod" finished-at="2025-05-10T20:04:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="webLoginHomeLoan(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="webLoginHomeLoan" data-provider="getData" finished-at="2025-05-10T20:04:51 IST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[thirdLoginSuccess]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at firstPackage.HomeLoan.webLoginHomeLoan(HomeLoan.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="BeforeMethod" finished-at="2025-05-10T20:04:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="AfterMethod" finished-at="2025-05-10T20:04:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="webLoginHomeLoan(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="webLoginHomeLoan" data-provider="getData" finished-at="2025-05-10T20:04:51 IST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fourthusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fourthPassword]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[fourthLoginSuccess]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at firstPackage.HomeLoan.webLoginHomeLoan(HomeLoan.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1575)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="BeforeMethod" finished-at="2025-05-10T20:04:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="AfterMethod" finished-at="2025-05-10T20:04:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:firstPackage.HomeLoan@6ad82709]" started-at="2025-05-10T20:04:51 IST" name="AfterTest" finished-at="2025-05-10T20:04:51 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTest -->
+      </class> <!-- firstPackage.HomeLoan -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
