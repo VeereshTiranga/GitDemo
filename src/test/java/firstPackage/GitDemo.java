@@ -8,5 +8,10 @@ public class GitDemo {
 	public void gitDemoTest() {
 		System.out.println("I have made changes- from Indian guy");
 	}
+	
+	@Test
+	public void gitDemoTest2() {
+		System.out.println("I have made changes- from American guy");
+	}
 
 }
